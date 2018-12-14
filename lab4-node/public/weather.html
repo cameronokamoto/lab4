@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>City Finder</title>
+    <!--<script type="text/javascript" src="jquery-3.2.1.js"></script>-->
+    <script
+            src="http://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+    </script>
+    <script src="javascripts/scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+    
+    
+    <h1>HIYAAAAAAAA finally did it haha :)</h1>
+    <div id="weather-wrapper" class="wrapper">
+        <form>
+            <h3>Enter A Utah City: </h3>
+            <input type="text" id="cityField" value=""><br>
+            <input id="weatherButton" class="my_button" type="submit" value="Submit">
+        </form>
+        
+        
+        <div class="weather-suggestion">
+            <p>Suggestion:</p> <span id="txtHint"></span>
+        </div>
+        
+        <div class="weather-result">
+            <p>City:</p>
+            <textarea id="displayCity">No City</textarea>
+            <p>Current Weather</p>
+        
+            <div id="weather">No weather</div>    
+        </div>
+        
+    </div>
+
+    <div id="dictionary-wrapper" class="wrapper">
+        <form>
+            <h3>Enter a dictionary search: </h3>
+            <input type="text" id="owlform" value=""><br>
+            <button id="owlbutton" class="my_button" type="submit">Submit</button>
+            </form>
+        <span id="owldef"></span>
+    </div>
+
+</body>
+</html>
